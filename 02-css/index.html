@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Atelier CSS</title>
+        <!--METHODE 1:Ajouter un fichier CSS à ma page-->
+        <link rel="stylesheet" href="css/styles.css">
+        <meta name="description" content="Une description unique pour chaque page, en relation avec son thème.">
+
+    </head>
+
+    <body>
+        <div id="page">
+            <div class="header">
+                <div class="BandeauDuHaut">
+                </div>
+                <ul>
+                    <li class="current">
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li><a href="">Présentation</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div> <!--./header-->
+
+
+            <div class="contenu">
+                <h1>Beaux-Arts</h1>
+                <div class="illustration">
+                    <img src="image/photo-texte.jpg"
+                         alt="Beaux Arts">
+                </div>
+                <div class="article">
+                    <p>Présentation des Beaux-Arts de Paris
+                            À la une
+                            Les missions de l'École
+                            Les Beaux-Arts à Saint-Germain- des-Prés et à Saint-Ouen
+                            L’offre culturelle et les ressources pédagogiques de l’École
+                            L’établissement des Beaux-Arts : statut et cadre juridique
+                            L’année 2016-2017 en chiffres
+                            L’École dans l’histoire : un patrimoine architectural et des collections exceptionnelles
+                            La constitution de la collection des Beaux-Arts à des fins pédagogiques
+                            Une collection patrimoniale et contemporaine
+                            Histoire de l'école et des bâtiments
+                            Accès
+                            S'orienter dans l'école
+                            Organisation et contacts
+                            Visites guidées
+                            Newsletter
+                            Colloque</p>
+                </div>
+            </div> <!--./contenu-->
+
+            <div class="footer">
+                <div class="gmap">
+                    <h1>Maps</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.0843986363707!2d2.3324014159459723!3d48.85660097928747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e27f4d953c7%3A0xae3e2d6aaeb026ee!2s14+Rue+Bonaparte%2C+75006+Paris!5e0!3m2!1sfr!2sfr!4v1508403662296" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="newsletter">
+                   <h1>News letter</h1>
+
+                   <p>Inscription à la New Letter</p>
+
+                   <form  name="NomDuFormulaire"
+                          action="FichierChargeDuTraitementDeMonFormulaire.php"
+                          method="POST">
+
+
+                   <fieldset>
+                       <legend>Newsletter</legend>
+                       <input type="text" name="nom" placeholder="Nom">
+                       <input type="text" name="prenom" placeholder="prenom">
+                       <input type="email" name="email" placeholder="email" required>
+
+                       <input type="submit" value= "M'incrire !">
+                   </fieldset>
+                </div>
+
+                <div class="contact">
+                    <h1>Contact</h1>
+                       <p><strong >Beaux-Arts de Paris</strong>
+                        14, rue Bonaparte
+                        75006 Paris</p>
+                        
+                       
+                 <adress>
+                     Tel:<a href=" tel: 0147035000"> 01 47 03 50 00 </a>
+                        
+                        <br>
+                     Mail:<a href="sakuralavandier@hotmail.fr">sakuralavandier@hotmail.fr</a>
+                 </adress>
+                    
+                        
+                       <p> Président du Conseil d'Administration
+                        Laurent MAX STARKMAN</p>
+                </div>
+            </div> <!--./footer-->
+
+        </div> <!--#/page-->    
+    </body>
+
+</html>
