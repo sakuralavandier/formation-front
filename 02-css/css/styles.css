@@ -66,7 +66,7 @@ a, h1 , h3 {
 } 
     
 /*--
-   Ici,je veux cibler ttes les listes présenteznt ds la DIV class "header"
+   Ici,je veux cibler ttes les listes présentent ds la DIV class "header"
 --*/
 
 .header ul {
@@ -84,7 +84,7 @@ a, h1 , h3 {
 }
 
 /*--
-Je souhaite que mes lienss'affichent en rouge
+Je souhaite que mes liens s'affichent en rouge
 au passage de la souris
 --*/
 
@@ -97,9 +97,8 @@ a:hover {
 --*/
 
 .current a {
-    color:red;
+    color:#ffc648;
 }
-
 /* Cibler via son 'ID' un élément
 NB: un ID ne p ê présent qu'une seule fois sur une même page.
 
@@ -112,7 +111,7 @@ NB: un ID ne p ê présent qu'une seule fois sur une même page.
      width: 960px;
 
 /*--margin: <top:bottom <left/right<--*/
-     margin: 0 auto;
+     margin: 20px;
 
 
 /*--Je rajoute à ma page un fond blanc--*/
@@ -123,8 +122,12 @@ NB: un ID ne p ê présent qu'une seule fois sur une même page.
    je souhaite changer la couleur du fond de ma page--*/
 
 body {
-     background-color:rgb(48, 45, 45);
+    /* background-color:rgb(48, 45, 45);*/
+
+    background-image: url(../image/paper.jpg);
 }
+     
+
 /*-----------------
 consigne:
     1- A ma div page ,ajouter une marge top/bottom de 80px;
@@ -147,7 +150,11 @@ consigne:
     /*--J'applique une marge interne ed 5PX autour de ma page*/
     padding:5px;
 
-
+    /*--overflow avec la caleur hidden,va supprimer l'affichage de ts les éléments qui dépassent de la
+    div page--*/
+    overflow: hidden;
+    background-color:white;
+    
 }
 
 .contenu h1 {
@@ -158,9 +165,10 @@ consigne:
        font-weight:normal;
        
        /*--solid:Ligne par défaut,dotted:Petits-Points,
-       dashed:des traits d'union--*/
-       border-bottom: 1px dashed #000;
-
+       dashed:des traits d'union
+       border-bottom: 1px dashed #000;--*/
+       background-color:#bd2c0b;
+       color: white;
 }
 
 .BandeauDuHaut {
@@ -168,5 +176,158 @@ consigne:
     height: 360px;
     background: url(../image/bandeau.jpeg)no-repeat;
     background-size:cover;
-    background-position-y:5px;
+    background-position-y:0px;
+    
 }
+
+/*--
+    CSS pr illustration et article
+    --*/
+
+.contenu {
+    /*--Dimension et positionnement--*/
+    width: 100%;
+    height:auto;
+    float: left;
+    background-color: white;
+    /*--Décoration--*/
+}
+
+.illustration {
+ /*--Dimension et positionnement--*/
+    width: 304px;
+    height:auto ;
+    float: left;
+ /*--Décoration--*/
+}
+
+.illustration img {
+    max-width: 100%;
+}
+
+.article {
+ /*--Dimension et positionnement--*/
+    width: 480px;
+    height: auto;
+    float: left;
+/*--decoration--*/
+margin: 0 0 0 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.article p {
+     padding: 0 15px 0 15px;
+}
+
+.footer {
+     width:100%;
+     height:auto;
+     float: left;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: rgb(207, 202, 202)
+
+}
+
+.footer h1, .footer p{
+    font-weight:normal;
+    text-align: center;
+
+}
+
+.gmap {
+     width:320px;
+     height: auto;
+     float: left;
+      
+}
+
+.newsletter {
+     width:250px;
+     height:auto; 
+     float:left;
+     padding:0 30px 30px 30px; 
+
+}
+
+.contact {
+     width:250px;
+     height:auto;
+     float:left;
+     padding:0 10px 0 10px;
+}
+
+.contact a {
+      text-decoration:none;
+      color: black;
+}
+
+/*.contact h3 {}
+.contact address{}
+.contact address strong{}
+.contact a{}
+.contact address a:hover{}
+*/
+
+address {
+    text-align:center;
+} 
+
+address a:hover {
+    transition-duration:1s;
+    color:white;   
+}
+
+    /*--style de mon pied de page
+    .footer {
+    --dimension et positionnement--
+    width:100%
+    --Une hauteur de 210px--
+    height: 210px;
+    --positionnement--
+    float:left;
+    --decoration--*/
+    /*Ici je souhaite que mes 3 blocks soient  positionnés,les uns à cotés des autres
+    google map
+    .gmap{
+        --dimensions et positionnement--
+        width:calc(100%/3)-10px);
+        float:left;
+        --decoration--*/
+    
+    /*--
+    NEWSLETTER
+    --*/
+    /*newsletter{
+        dimension et positionnement--
+        width:calc(100%/3)
+        float:left;
+       --decoration--*/
+       /*contact
+       width:calc(100%/3)-10px);
+       float:left;
+       margin :left 10px;
+       */
+    .newsletter input[type=submit] {
+         width:100%;
+         height:35px;
+         border:0;
+         background:#ffc648;
+         font-size: 15px;
+         font-weight: bold;
+         cursor:pointer;
+    }
+
+    .newsletter fieldset {
+        font-family:'roboto Condensed',sans-serif;
+        border-radius: 8px;
+        border:2px solid rgb(7, 7, 7);
+        color: rgb(5, 5, 5);
+        height:180px;
+    }
+    .newsletter input {
+          width:91%;
+          height:25px;
+          margin-bottom:5px;
+          padding:5px 10px;
+    }
