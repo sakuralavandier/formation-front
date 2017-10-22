@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+a, h1 , h3 {
+    font-family: 'Roboto', sans-serif;
+}
+.page {width:100%;max-width:1000px ;
+    background-color: grey;
+    margin:0 auto;
+}
+nav ul li{
+    color: red;
+}
+
+.topheader p {color: green;}
