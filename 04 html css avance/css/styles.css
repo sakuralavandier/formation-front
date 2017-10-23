@@ -6,18 +6,18 @@ a, h1 , h3 {
     width:100%;
     /* height:1000px; */
     max-width:1000px;
-    background-color: red;
+    background-color:white;
     margin:0 auto;
 }
 
 nav ul li{
-    color:red;
+    color:white;
 }
 
 .topheader  {
     width:100%;
     height:50px;
-    background:blue;
+    background:white;
 
 }
 
