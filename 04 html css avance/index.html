@@ -5,23 +5,27 @@
         <title>Atelier 04-HTML-CSS avancés</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
+        <!--google font-->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
         <meta name="description" content="Une description unique pour chaque page, en relation avec son thème.">
     </head>
+
     <body>
         <div class="page">
              <p>L'Univers De Nathalie Lété</p>
 
              <div class="topheader">
-                    <p>Espace client:
-                    <a href=connexion.php"">Connexion</a>
-                    | 
-                    <a href="inscription.php">Inscription</a></p>
+                  <p>Espace client:
+                    <a href=connexion.php"">Connexion</a>|
+                    <a href="inscription.php">Inscription</a>
+                  </p>
              </div> <!--/TOPHEADER-->
            
 
-             <header>
-
-                 <a href="index.html"><img src="image/logo.jpg"></a>
+     <header>
+         <div class="logo">
+                     <a href="index.html"><img src="image/logo.jpg"></a></div>
                  <nav>
                      <ul>
                          <li class="current"><a href="index.html">Accueil</a></li>
@@ -35,6 +39,7 @@
              <div id="projecteur">
                  
             </div>
+
         <div class="page">
 
             <section>
@@ -48,38 +53,56 @@
                     <img src="image/partenaire4.gif">
                 </div>
             </section>
-
+       </div>
 
             <footer>
-                <div class="googlemap">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167998.10803373056!2d2.2069770643680573!3d48.85877410312378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1508794777127" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div class="page">
+                    <div class="gmap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167998.10803373056!2d2.2069770643680573!3d48.85877410312378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1508794777127" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="newsletter">
+                        <h1>News letter</h1>
+     
+                        <p>Inscription à la New Letter</p>
+     
+                        <form  name="NomDuFormulaire"
+                               action="FichierChargeDuTraitementDeMonFormulaire.php"
+                               method="POST">
+     
+     
+                            <fieldset>
+                                <legend>Newsletter</legend>
+                                <input type="text" name="nom" placeholder="Nom">
+                                <input type="text" name="prenom" placeholder="prenom">
+                                <input type="email" name="email" placeholder="email" required>
+     
+                                <input type="submit" value= "M'incrire !">
+                            </fieldset>
+                        </form>
+                    </div>
+     
+                    <div class="contact">
+                         <h1>Contact</h1>
+                            <p><strong >Beaux-Arts de Paris</strong>
+                             14, rue Bonaparte
+                             75006 Paris</p>
+                             <br><br>
+                             <p> Président du Conseil d'Administration
+                                 Laurent MAX STARKMAN</p>
+                             <br>
+                            
+                        <address>
+                             <i class="fa fa-phone" aria-hidden="true"></i>
+                          Tel:<a href=" tel: 0147035000"> 01 47 03 50 00 </a>
+                          
+                             <br>
+                             <i class="fa fa-envelope" aria-hidden="true"></i>
+                             <a href="sakuralavandier@hotmail.fr">sakuralavandier@hotmail.fr</a>
+                        </address>                         
+                    </div>
                 </div>
-                <div class="newsletter"></div>
-                <div class="contact"></div>
             </footer>
-        </div>
+       
         </body>
     </html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </body>
-
-
-</html>

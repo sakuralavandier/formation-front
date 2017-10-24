@@ -8,8 +8,10 @@ body {
     background-size:cover; 
 
 }
-.page {width:100%;max-width:1000px ;
-    background-color:white;
+.page {
+    width:100%;
+    max-width:1000px ;
+    background-color:grey;
     margin:0 auto;
     
 }
@@ -19,72 +21,127 @@ a {
     color: black; 
 }
 
-.topheader{
-    float:right ;
+.topheader  {
+    float:left;
+    width: 100%;
+    height: 30px;
 }
 
-header img {
-      border:2px solid black;
-      width:400px;
-
+.topheader p {
+    text-align: right;
+    margin: 0;
+    line-height: 28px;
+    margin: 0px 10px 00;
 }
 
+
+header {
+    width: 100%;
+    height: 50px;
+    background: white;
+    float: left;
+
+}
+.logo {
+      width:25%;
+      height:auto;
+      float: left;
+}
+
+.logo img{
+    height:50px;
+}
+
+
+             /* MENU DU HEADER */
 nav {
     width:500px;
+    float: right;
+
 }
 nav ul li{
     color: red;
     display: inline-block;
-    float: right;
+    text-align: right;
+}
+.partenaire img {
+    width:140px;
+    float:left;
 }
 
 
 
-
-.footer {
+footer {
     width:100%;
     height:auto;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(207, 202, 202)
+    background-color: rgb(207, 202, 202);
 
 }
 
-.footer h1, .footer p{
+footer h1, .footer p{
    font-weight:normal;
    text-align: center;
 
 }
 
 .gmap {
-    width:320px;
+    width:calc(100%/3);
     height: auto;
     float: left;
-     
+    box-sizing: border-box;
+    margin-top : 20px; 
 }
 
 .newsletter {
-    width:250px;
+    width:calc(100%/3);
     height:auto; 
     float:left;
     padding:0 30px 30px 30px; 
-
+    box-sizing:border-box ;
 }
 
 .contact {
-    width:250px;
+    width:calc(100%/3);
     height:auto;
     float:left;
     padding:0 10px 0 10px;
+    box-sizing: border-box; 
 }
 
 .contact a {
      text-decoration:none;
      color: black;
 }
+address {
+    text-align:center;
+} 
 
+address a:hover {
+    transition-duration:1s;
+    color:white;   
+}
+.newsletter input[type=submit] {
+    width:100%;
+    height:35px;
+    border:0;
+    background:#ffc648;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer;
+}
 
-.partenaire img {
-    width:140px;
-    float:left;
+.newsletter fieldset {
+   font-family:'roboto Condensed',sans-serif;
+   border-radius: 8px;
+   border:2px solid rgb(7, 7, 7);
+   color: rgb(5, 5, 5);
+   height:180px;
+}
+.newsletter input {
+     width:91%;
+     height:25px;
+     margin-bottom:5px;
+     padding:5px 10px;
 }
