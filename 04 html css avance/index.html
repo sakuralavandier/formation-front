@@ -13,8 +13,9 @@
 
     <body>
         <div class="page">
-             <p>L'Univers De Nathalie Lété</p>
-
+         <div id="accroche">
+            <p>L'Univers De Nathalie Lété</p>
+        </div>
              <div class="topheader">
                   <p>Espace client:
                     <a href=connexion.php"">Connexion</a>|
@@ -38,19 +39,33 @@
 
              <div id="projecteur">
                  
-            </div>
+         </div>
 
         <div class="page">
 
             <section>
 
-                <aside></aside>
-                 <article></article>
-                 <div class="partenaire">
-                    <img src="image/partenaire1.png">
-                    <img src="image/partenaire2.png">
-                    <img src="image/partenaire3.gif">
-                    <img src="image/partenaire4.gif">
+                <aside><img src="image/maison.jpg"> </aside>
+
+                 <article>
+                     <p>
+                            Bienvenue dans La Maison de Nathalie Lété, le décor rêvé pour les plus belles histoires ! Transformable, la maison de poupée se déplie et s’étend jusqu’à plus de 1,5m… un terrain de jeu pour imaginer en grand !
+                        </p><p>
+                            - Superbes dessins réalisés par l’artiste inspirés de sa propre maison
+                            - 4 panneaux amovibles  à  fixer pour transformer la maison
+                            - Maison de poupée réversible : côté intérieur + côté jardin
+                            - Entrez dans le fabuleux univers de l’artiste   
+                    </p>
+                 </article>
+
+         <div class="partenaire">
+             <h2>Nos partenaires</h2>
+             <ul>
+                  <li> <img src="image/partenaire1.png"></li> 
+                  <li> <img src="image/partenaire3.gif"></li>
+                  <li> <img src="image/partenaire2.png"></li> 
+                  <li> <img src="image/partenaire4.gif"></li>  
+             </ul>
                 </div>
             </section>
        </div>
@@ -63,14 +78,14 @@
                     <div class="newsletter">
                         <h1>News letter</h1>
      
-                        <p>Inscription à la New Letter</p>
+                        <p>Inscription à la News Letter</p>
      
                         <form  name="NomDuFormulaire"
                                action="FichierChargeDuTraitementDeMonFormulaire.php"
                                method="POST">
      
-     
-                            <fieldset>
+                        <!--le cadre de la news letter avec les input dedans-->
+                            <fieldset> 
                                 <legend>Newsletter</legend>
                                 <input type="text" name="nom" placeholder="Nom">
                                 <input type="text" name="prenom" placeholder="prenom">
@@ -83,7 +98,7 @@
      
                     <div class="contact">
                          <h1>Contact</h1>
-                            <p><strong >Beaux-Arts de Paris</strong>
+                            <p>Beaux-Arts de Paris
                              14, rue Bonaparte
                              75006 Paris</p>
                              <br><br>

@@ -1,24 +1,34 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+
 a, h1 , h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Boogaloo', cursive;
+}
+
+
+#accroche p {
+   font-size:30px;
+   color: rgb(228, 74, 112);
+
 }
 
 body {
     background-image:url(../image/background.jpg);
     background-size:cover; 
+    font-family: 'Boogaloo', cursive;
 
 }
 .page {
     width:100%;
     max-width:1000px ;
-    background-color:grey;
+    background-color:white;
     margin:0 auto;
-    
 }
+
+ 
 
 a {
     text-decoration:none;
-    color: black; 
+    color: rgb(228, 74, 112);
 }
 
 .topheader  {
@@ -60,13 +70,109 @@ nav {
 
 }
 nav ul li{
-    color: red;
+    color:rgb(228, 74, 112);
     display: inline-block;
     text-align: right;
+    margin: 0 40px;
 }
-.partenaire img {
-    width:140px;
+
+#projcteur {
+     width:100% ;
+     height:auto ;
+     float: left;
+}
+
+#projecteur {
+     width:100%;
+     height: 300px;
+     background-image: url(../image/maxresdefault.jpg);
+     background-size: cover;
+     float: left;
+     background-position-y: -40px;
+
+}
+
+
+.partenaire  {
+    width:100%;
+    height: auto;
     float:left;
+    /* margin-top:-4px;  */
+    
+}
+
+.partenaire h2 {
+    text-align: center;
+    font-weight: normal;
+    padding-bottom:20 px; 
+    color:rgb(204, 57, 108);
+
+}
+
+.partenaire ul{
+    margin:0;
+    padding:0;
+    width: 75%;
+    margin-left: 125px;
+}
+
+.partenaire ul li {
+    width:20%;
+    display:inline-block; 
+
+}
+
+.partenaire ul li img {
+     max-width:100% ;
+     /* width:50%; */
+     height: 100px;
+     box-sizing: border-box;
+     margin:10px;
+     float: left;
+
+}
+
+
+
+
+
+section {
+    width:100%;
+    height:auto ;
+    float: left;
+    background-color:white ;
+    padding-right:15px;  
+}
+
+section aside {
+    width:50%;
+    float: left;
+    height:auto ;
+}
+
+section aside img {
+     width:100% ;
+     max-width:100% ;
+     padding: 1% 5% 0 5%;
+     box-sizing: border-box;
+
+}
+section article{
+    padding-top: 30px;
+}
+section article p {
+     font-family: 'Boogaloo', cursive;
+     font-size: 20px;
+     color: black;
+     text-align:center ;
+
+     
+}
+
+section article h3 {
+
+     text-align:center;
+     font-weight:normal; 
 }
 
 
@@ -75,8 +181,8 @@ footer {
     width:100%;
     height:auto;
     float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(207, 202, 202);
+    font-family: 'Boogaloo', cursive;
+    background-color: ;rgb(194, 41, 99);
 
 }
 
@@ -100,6 +206,7 @@ footer h1, .footer p{
     float:left;
     padding:0 30px 30px 30px; 
     box-sizing:border-box ;
+    color: rgb(228, 74, 112);
 }
 
 .contact {
@@ -108,11 +215,12 @@ footer h1, .footer p{
     float:left;
     padding:0 10px 0 10px;
     box-sizing: border-box; 
+    color: rgb(228, 74, 112); 
 }
 
 .contact a {
      text-decoration:none;
-     color: black;
+     color: rgb(228, 74, 112);
 }
 address {
     text-align:center;
@@ -126,14 +234,14 @@ address a:hover {
     width:100%;
     height:35px;
     border:0;
-    background:#ffc648;
+    background: rgb(228, 74, 112);
     font-size: 15px;
     font-weight: bold;
     cursor:pointer;
 }
 
 .newsletter fieldset {
-   font-family:'roboto Condensed',sans-serif;
+   font-family: 'Boogaloo', cursive;
    border-radius: 8px;
    border:2px solid rgb(7, 7, 7);
    color: rgb(5, 5, 5);
