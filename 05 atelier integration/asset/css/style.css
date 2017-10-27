@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
 body{
     background: url(../image/fond.jpg)no-repeat;
     background-size: cover;
@@ -110,7 +111,7 @@ header > nav{
 
 header >nav ul {
     margin:0;
-    paddind:0;
+    padding:0;
 }
 
 header>nav ul li{
@@ -141,7 +142,7 @@ header>nav ul li.current a{
 header > nav li:nth-child(3) a {
     color: #fe3224;
 }
-
+/*--ce que j'ai fais--
 section {
     
    width:100% ;
@@ -162,9 +163,135 @@ section footer {
     width: 100%;
     height: auto;
     text-align: center;
+    margin-top : -5px;
     
+}
+/*
+
+            /*--projecteur--*/
+.projecteur{
+    width:100%;
+    height:750px;
+    float: left;
+    overflow:hidden;
 }
 
 
 
+         /*--commencer mon séjour--*/
+ .bandeaurouge{
+     background-color:#fe3224;
+     width:1300px;
+     height:50px;
+     float:left; 
+     text-align:center;}
+
+.bandeaurouge img{
+     margin-top: -16px;
+
+}
+.composersejour {
+width:100%;
+height:120px ; 
+float: left;
+border-bottom-left-radius: 10px;
+
+background: -webkit-radial-gradient(circle farthest-side at 50%, #ffffff 0%, #febeb9 100%);
+background: -moz-radial-gradient(circle farthest-side at 50%, #ffffff 0%, #febeb9 100%);
+background: -o-radial-gradient(circle farthest-side at 50%, #ffffff 0%, #febeb9 100%);
+background: -ms-radial-gradient(circle farthest-side at 50%, #ffffff 0%, #febeb9 100%);
+background: radial-gradient(circle farthest-side at 50%, #ffffff 0%, #febeb9 100%);
+width: 1300px;
+height: 121px;
+
+}
+
+.composersejour p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+    text-align:center; 
+}
+
+.composersejour p span {
+   text-decoration: underline;
+}
+
+.composersejour p span.red{
+    color: #fe3224;
+    text-decoration: inherit;
+}
+
+/*--bouton sejour--*/
+.btn-sejour{
+    width:346px; 
+    height:37px;
+    margin:0 auto;
+
+    position:relative;
+}
+
+.btn-sejour a{
+    width: 346px;
+    height: 37px;
+    display:block;
+    
+    
+    background: -webkit-linear-gradient(-90deg, #fe8e86 0%, #fe3224 100%);
+    background: -moz-linear-gradient(-90deg, #fe8e86 0%, #fe3224 100%);
+    background: -o-linear-gradient(-90deg, #fe8e86 0%, #fe3224 100%);
+    background: -ms-linear-gradient(-90deg, #fe8e86 0%, #fe3224 100%);
+    background: linear-gradient(180deg, #fe8e86 0%, #fe3224 100%);
+    
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;  
+
+    font-family :'Roboto Condensed', sans-serif;
+    font-size:13px;
+    color:#fff;
+    text-transform:uppercase;
+    text-decoration:none;
+    text-align:center;
+    line-height:37px; 
+    position: relative;
+}
+
+.cursor-main{
+    position:absolute; 
+    right: 0px;
+    bottom:-20px;
+
+    visibility:hidden;
+    opacity:0;
+    transition:0.1s ease-in-out;   
+}
+
+.btn-sejour:hover .cursor-main {
+     visibility: visible;
+     opacity:1 ;
+     bottom: -8px;
+     transform: rotate(-15deg);
+}
+
+.btn-sejour a::before{
+    width: 147px;
+    height:36px;
+    background:url(../image/flecheg.png); 
+    content:"";
+    position: absolute;
+    top:0px;
+    left:-170px;
+}   
+
+
+.btn-sejour a::after{
+    width: 147px;
+    height:36px;
+    transform: rotate(180deg);
+    background:url(../image/flecheg.png); 
+    content:"";
+    position: absolute;
+    top:0px;
+    right:-170px;
+}   
 
