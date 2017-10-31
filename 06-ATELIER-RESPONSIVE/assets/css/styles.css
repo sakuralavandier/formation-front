@@ -1,0 +1,116 @@
+           /*--pour les ecrans larges---*/
+.rm{
+   margin: 0!important;
+}
+
+.rp{
+   padding:0 !important; 
+}
+
+.mt-40{
+    margin-top:40px; 
+}
+
+            /*-- le projecteur--*/
+.projecteur img{
+    width: 100% !important;
+    height:100vh !important;
+    object-fit:cover;  
+}
+ 
+ /*---la navigation--*/
+
+ nav{
+    position: absolute !important;
+    top:0;
+    left: 0;
+    padding:20px 0; 
+    background-color: rgba(0,0,0,0.6)
+ }
+ nav ul{
+     text-align: center;
+     margin : 0;
+ }
+ nav ul li{
+     margin:0 25px;
+ }
+ nav ul li a{
+     color: white;
+     font-size: -16px;
+     text-decoration: none;
+
+ }
+ nav ul li a:hover{
+     color:#E98829;
+     text-decoration: none;
+ }
+/*--videos--*/
+
+#Nos-Videos{
+    background: url(../image/frida1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+/*--videos suite--*/
+
+#Nos-Videos-suite{
+    background: url(../image/frida1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+
+/*--photos--*/
+#Nos-Photos{
+padding:40px;
+}
+
+/*--pied de page--*/
+
+footer {
+    padding:10px 0;
+    background: white;
+}
+
+footer > p {
+
+}
+
+ /*--mon mobile first method--*/
+ /* Large Devices, Wide Screens */
+ @media only screen and (max-width : 1200px) {
+    
+        }
+    
+        /* Medium Devices, Desktops */
+        @media only screen and (max-width : 992px) {
+    
+        }
+    
+        /* Small Devices, Tablets */
+        @media only screen and (max-width : 768px) {
+    
+        }
+    
+        /* Extra Small Devices, Phones */ 
+        @media only screen and (max-width : 480px) {
+            nav ul li{
+                display: list-item !important;
+            }
+            nav ul li a {
+                font-size: 20px;
+            }
+        }
+    
+        /* Custom, iPhone Retina */ 
+        @media only screen and (max-width : 320px) {
+    
+        }
+    

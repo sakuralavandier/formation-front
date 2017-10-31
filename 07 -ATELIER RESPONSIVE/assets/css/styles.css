@@ -1,0 +1,46 @@
+  /*--pour les ecrans larges---*/
+  .rm{
+    margin: 0!important;
+ }
+ 
+ .rp{
+    padding:0 !important; 
+ }
+ 
+ .mt-40{
+     margin-top:40PX; 
+ }
+
+ 
+ /*---la navigation--*/
+
+ nav{
+    /* position: absolute !important; */
+    top:0;
+    left: 0;
+    padding:20px 0; 
+    background-color: rgba(0,0,0,0.6)
+ }
+ nav ul{
+     text-align: center;
+     margin : 0;
+ }
+ nav ul li{
+     margin:0 25px;
+ }
+ nav ul li a{
+     color: white;
+     font-size: -16px;
+     text-decoration: none;
+
+ }
+ nav ul li a:hover{
+     color:#E98829;
+     text-decoration: none;
+ }
+
+.bandeau img{
+    width: 100%;
+    object-fit: cover;
+    
+ }
